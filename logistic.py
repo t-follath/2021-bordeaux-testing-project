@@ -7,4 +7,5 @@ def iterate_f(it, x, r):
 	for i in range(it):
 		x = logistic_function(x, r)
 		l += [x]
+	print(l[-1])
 	return l
