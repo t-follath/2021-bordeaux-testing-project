@@ -1,6 +1,7 @@
 name: Python package
 
 on: [push, pull_request]
+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
 
 jobs:
   build:
@@ -19,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install flake8 pytest
+          pip install flake8 pytest numpy
       - name: Lint with flake8
         run: |
           # stop the build if there are Python syntax errors or undefined names
